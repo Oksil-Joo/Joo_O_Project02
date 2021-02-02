@@ -1,0 +1,166 @@
+.hidden {
+  display: none;
+}
+body {
+  background-color: #ccc;
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.Headline {
+  font-family: 'Bungee Shade', cursive, Arial;
+  font-size: 190px;
+  color: #332207;
+  font-weight: bold;
+  line-height: 3.3;
+  letter-spacing: 2px;
+}
+#MainCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+#mainImage {
+  width: 630px;
+  height: 416px;
+  background: url("../images/mainImage.jpg") no-repeat left top;
+	background-size: 100% 100%;
+}
+
+#mainText {
+  width: 290px;
+  height: 416px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+#greenCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 940px;
+  height: 250px;
+  margin-left: 10px;
+
+}
+
+.subTitle_orange {
+  font-family: 'Milonga', cursive;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.8));
+  font-size: 34px;
+  color: #eca108;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.subTitle_White {
+  font-family: 'Milonga', cursive;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.8));
+  font-size: 34px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.subDes {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: inherit;
+}
+#greenText {
+  width: 940px;
+  background-color: #eca108;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+.subDes_W {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: inherit;
+  color: #fff;
+}
+#brewersCon {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+#brewersText {
+  width: 600px;
+  height: 438px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+#brewersImage {
+  width: 300px;
+  height: 438px;
+  background-color: #000;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#InfectCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#Infect_leftImage {
+  width: 300px;
+  height: 523px;
+  background-color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#InfectText {
+  width: 280px;
+  height: 523px;
+  background-color: #eca108;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#Infect_rightImage {
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.subImage {
+  margin-bottom: 5px;
+  padding: 0;
+}
+#concluCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#concluTitle {
+  width: 280px;
+  height: 120px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#concluText {
+  width: 600px;
+  height: 120px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+p::first-letter {
+  font-size: 60px;
+  font-weight: bold;
+}
