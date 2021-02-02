@@ -13,10 +13,11 @@ body {
 }
 .Headline {
   font-family: 'Bungee Shade', cursive, Arial;
-  font-size: 180px;
+  font-size: 190px;
   color: #332207;
   font-weight: bold;
-  line-height: 3.5;
+  line-height: 3.3;
+  letter-spacing: 2px;
 }
 #MainCon {
   display: flex;
